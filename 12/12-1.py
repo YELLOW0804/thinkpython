@@ -1,5 +1,7 @@
-l = [1, 2, 3, 4, 5]
+def sumall(*t):
+    total = 0
+    for l in t:
+        total += l
+    return total
 
-a = tuple(l)
-
-print type(a),a
+print sumall(2)
